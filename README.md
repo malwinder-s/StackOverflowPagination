@@ -3,6 +3,6 @@ StackOverflow Search API with Pagination in Android application
 
 Includes:
 
-Pagination with integrated StackOverflow Search API
-Name (Title) with tags.
-Profile pic and name of question poster.
+1. Pagination with integrated StackOverflow Search API
+2. Name (Title) with tags.
+3. Profile pic and name of question poster.
