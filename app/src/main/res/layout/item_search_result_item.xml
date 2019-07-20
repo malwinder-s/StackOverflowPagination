@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_small">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/list_item_title_textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_small"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Title" />
+
+        <TextView
+            android:id="@+id/list_item_description_textView"
+            android:layout_width="217dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="28dp"
+            android:maxLines="2"
+            app:layout_constraintStart_toEndOf="@+id/profile_imageView"
+            app:layout_constraintTop_toTopOf="@+id/profile_imageView" />
+
+        <ImageView
+            android:id="@+id/profile_imageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:maxHeight="60dp"
+            android:maxWidth="60dp"
+            android:layout_margin="@dimen/margin_small"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/list_item_title_textView" />
+
+        <ImageView
+            android:id="@+id/list_item_language_imageView"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="@dimen/margin_small"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/ic_language"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profile_imageView" />
+
+        <TextView
+            android:id="@+id/list_item_tags"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:maxWidth="300dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/list_item_language_imageView"
+            app:layout_constraintTop_toTopOf="@id/list_item_language_imageView"
+            app:layout_constraintVertical_bias="0.0"
+            tools:text="KotlinKotlinKotlinKotlinKotlinKotlinKotlinKotlinKotlinKotlinKotlinKotlinKotlinKotlinKotlinKotlinKotlinKotlinKotlinKotlinKotlinKotlinKotlinKotlinKotlinKotlinKotlin" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
