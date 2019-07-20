@@ -8,6 +8,6 @@ Includes:
 3. Profile pic and name of question poster.
 
 Uses:
-Android Jetpack: Android X libraries, Retrofit, Rx Java, MVVM architectural pattern.
+Android Jetpack: Android X libraries, Retrofit, Rx Java, MVVM architectural pattern, Kotlin coroutine.
 
 <img src="https://i.ibb.co/B2V4LPk/Screenshot-1563608052.png" width="300" height="590">
