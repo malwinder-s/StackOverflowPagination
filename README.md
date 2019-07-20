@@ -7,4 +7,4 @@ Includes:
 2. Name (Title) with tags.
 3. Profile pic and name of question poster.
 
-![Screenshot](https://i.ibb.co/B2V4LPk/Screenshot-1563608052.png)
+<img src="https://i.ibb.co/B2V4LPk/Screenshot-1563608052.png" width="300" height="590">
