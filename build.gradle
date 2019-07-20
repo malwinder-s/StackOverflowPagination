@@ -38,7 +38,7 @@ ext {
     mapstructVersion = '1.2.0.Final'
 
     rxJavaVersion = '2.1.14'
-    rxAndroidVersion = '2.0.2'
-    rxBindingVersion = '2.1.1'
+    rxAndroidVersion = '2.1.1'
+    rxBindingVersion = '2.2.0'
 
 }

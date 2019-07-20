@@ -19,7 +19,7 @@ import com.malwinder.example.domain.models.SearchResultItem
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.empty_view.*
 
-class MainActivity : AppCompatActivity() {
+class SearchActivity : AppCompatActivity() {
     private lateinit var viewModel: MainViewModel
     private lateinit var adapter: MainAdapter
 

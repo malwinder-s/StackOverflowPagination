@@ -30,7 +30,7 @@ class MainAdapter(var listener : ItemClickListener) : BaseDiffAdapter<SearchResu
         if (getItemViewType(position) == VIEW_TYPE_NORMAL) {
             val searchResultItem = getItem(position)
             val viewHolder = holder as MainViewHolder
-            viewHolder.titleTextView.text = searchResultItem?.title?.replace("&#39;","'")
+            viewHolder.titleTextView.text = searchResultItem?.title?.replace("&#39;","'")?.replace("&quot;", "''")
             viewHolder.descriptionTextView.text = viewHolder.descriptionTextView.context.getString(R.string.posted_by, searchResultItem?.owner?.displayName)
             viewHolder.tagsTextView.text = searchResultItem?.tags?.joinToString()
             viewHolder.itemView.setOnClickListener { listener.onItemClicked(searchResultItem!!) }
